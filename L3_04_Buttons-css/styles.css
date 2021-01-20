@@ -1,0 +1,11 @@
+@import "path/to/font-awesome/less/font-awesome.less";
+
+button {
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+button.fill{
+    background-color:rgb(51, 51, 51)
+}
