@@ -1,0 +1,14 @@
+html{
+    width: 90%;
+    margin: 50px auto;
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: inline-block;
+}
+nav ul, nav h1, nav li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
