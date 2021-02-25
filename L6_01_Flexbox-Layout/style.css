@@ -1,0 +1,30 @@
+html{
+    background: #eeeeee;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+}
+header, main, aside, footer{
+    box-shadow: 0px 0px 3px black;
+    background: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 6px;
+}
+main,aside{
+    min-height: 200px;
+}
+main{
+    flex-grow: 2.5
+}
+aside{
+    flex-grow: 0.5;
+}
