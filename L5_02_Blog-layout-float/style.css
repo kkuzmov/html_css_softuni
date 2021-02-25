@@ -1,10 +1,27 @@
-html{
+body{
     box-sizing: border-box;
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
-    font-family: Helvetica, sans-serif;
     max-width: 65%;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+main{
+    max-width: 82%;
+    display: inline-block;
+}
+aside{
+    max-width: 15%;
+    float: right;
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
 }
 .site-title{
     display: inline-block;
@@ -13,30 +30,27 @@ html{
 }
 .citation, .paragraph-inline{
     display: inline-block;
-    width: 40%;
 }
 .citation{
-    /* margin-left: 50px; */
     margin-top: 10px;
     font-style: italic;
     float: right;
     padding: 0px 30px;
     color: gray;
-    height: 192px;
-    min-width: 300px;
     border-left: 2px solid gray;
+    font-family: Georgia, serif;
+    max-width: 40%;
 }
 .paragraph-inline {
-    float: left;
-    margin-right: 50px;
-    min-width: 300px;
     margin-top: 10px;
+    max-width: 40%;
 }
 .paragraph-after-paragraph-inline{
     clear: both;
 }
 .paragraph-and-cite-inline{
     display: inline-block;
+    max-width: 100%;
 }
 .author-name{
     float: right;
@@ -59,22 +73,30 @@ html{
     clear: none;
     float: right;
     vertical-align: top;
+   background: rgb(255, 255, 255);
 }
 .second-section{
-    display: inline-block;
     vertical-align: top;
+    display: inline-block;
+    max-width: 100%;
 }
 .second-section p {
-    max-width: 75%;
     float: right;
     clear: none;
     margin-top: 0px;
 }
+.second-section-paragraphs{
+    float: right;
+    max-width: 60%;
+    margin-top: 0px;
+}
 .second-section img{
+    margin-top: 0px;
     border: 4px solid black;
-    background-color: white;
+    max-width: 40%;
     padding: 5px;
     clear: none;
     float: left;
+    background: rgb(255, 255, 255);
     vertical-align: top;
 }
