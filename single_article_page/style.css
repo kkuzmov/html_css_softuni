@@ -3,8 +3,11 @@
     background-color: rgba(255, 217, 0, 0.685);
     max-width: 600px;
     padding: 10px 5px;
-    margin: 20px auto;
     min-width: 350px;
+    float: right;
+    clear:both;
+    display: block;
+    border: 3px dashed black;
 }
 .cat-paragraph::before{
     content: 'Article starts here';
@@ -16,6 +19,18 @@
     display: block;
     font-family: Ballet, serif;
     font-size: 30px;
+}
+article{
+    background-color: blue;
+    overflow:auto;
+}
+article::before{
+    content: 'This is article';
+    font-size: 40px;
+}
+img{
+    clear: both;
+    display: block;
 }
 .cat-paragraph::after{
     content: 'Article finishes here';
@@ -33,4 +48,5 @@ body{
     min-width: 350px;
     margin: 30px auto;
     text-align: center;
+    box-sizing: border-box;
 }
