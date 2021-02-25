@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+.cat-paragraph{
+    background-color: rgba(255, 217, 0, 0.685);
+    max-width: 600px;
+    padding: 10px 5px;
+    margin: 20px auto;
+    min-width: 350px;
+}
+.cat-paragraph::before{
+    content: 'Article starts here';
+    /* max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 3px solid wheat;
+    background-color: blue; */ 
+    display: block;
+    font-family: Ballet, serif;
+    font-size: 30px;
+}
+.cat-paragraph::after{
+    content: 'Article finishes here';
+    /* max-width: 300px;
+    margin: 10px auto;
+    border: 3px solid wheat;
+    display: block;
+    background-color: yellow; */
+    display: block;
+    font-family: Ballet, serif;
+}
+body{
+    background-color: red;
+    max-width: 1000px;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
