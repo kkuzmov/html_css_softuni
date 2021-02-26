@@ -1,0 +1,119 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgb(238, 238, 238);
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+img{
+    background-color: rgb(255, 255, 255);
+}
+.citation{
+    font-family: Georgia, serif;
+}
+aside a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+.main-and-aside{
+    display: flex;
+    justify-content: left;
+    align-items:flex-start;
+}
+main{
+    display: flex;
+    flex-basis: 75%;
+}
+aside{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    flex-basis: 10%;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.site-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.citation{
+    margin-top: 10px;
+    font-style: italic;
+    float: right;
+    padding: 0px 30px;
+    color: gray;
+    border-left: 2px solid gray;
+    font-family: Georgia, serif;
+    max-width: 40%;
+}
+.author-name{
+    float: right;
+    margin-top: 30px;
+}
+.first-section, .second-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.first-section p {
+    margin-top: 0px;
+}
+.first-section-paragraphs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-section img{
+    border: 4px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 40px;
+}
+.second-section img{
+    border: 4px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-right: 40px;
+
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 500px){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 600px){
+    body{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 800px){
+    body{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1300px){
+    body{
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1800px){
+    body{
+        font-size: 23px;
+    }
+}
