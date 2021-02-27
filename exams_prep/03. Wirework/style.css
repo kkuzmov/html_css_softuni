@@ -9,6 +9,9 @@ body{
     margin: 0px auto;
     padding: 0px;
 }
+a:visited{
+    color: white;
+}
 .site-wrapper{
     max-width: 1450px;
     margin: 0px auto;
@@ -150,4 +153,13 @@ button{
 .last-section p{
     color: gray;
     text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: #1B9772;
+    padding: 40px 100px;
+    color: rgba(213, 190, 190, 0.58);
+}
+.white-footer{
+    color: white;
 }
