@@ -1,0 +1,11 @@
+@media all and (max-width: 600px){
+ 
+    html body section.w3-top article.w3-bar.w3-white.w3-padding.w3-card article.w3-right.w3-hide-small, html body main.w3-content section#about.w3-row.w3-padding-64 article.w3-col.m6.w3-padding-large.w3-hide-small img.w3-round.w3-image.w3-opacity-min{
+        display: none;
+    }
+    html body main.w3-content section#about.w3-row.w3-padding-64 article.w3-col.m6.w3-padding-large,
+    html body main.w3-content section#menu.w3-row.w3-padding-64 article.w3-col.l6.w3-padding-large{
+        width: 100%;
+    }
+    
+}
