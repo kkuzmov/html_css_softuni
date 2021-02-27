@@ -3,6 +3,9 @@
         width: 15em;
         height: 16em;
     }
+    header h1{
+        font-size: 24px;
+    }
     .big_article .article .article_text h3{
         font-size: 1em;
     }
@@ -15,7 +18,6 @@
     }
     html body main ul li.row_articles{
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
     }
     main ul{
