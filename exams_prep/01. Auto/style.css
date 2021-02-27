@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+    max-width: 1200px;
+    display: flex;
+    margin: 100px auto;
+    max-height: 800px;
+}
+.image-right{
+    max-height: 100%;
+}
+h2{
+    padding: 0;
+    margin-top: 0;
+    font-family: Montserrat;
+}
+.container{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.text-left{
+    padding: 0;
+    margin-right: 20px;
+    max-height: 100%;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50px;
+}
+.icons img{
+    max-height: 50px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.icons-and-paragraphs{
+    display: flex;
+    align-items: center;
+}
+.heading-and-paragraph-text-left h4, .heading-and-paragraph-text-left p{
+    margin-bottom: 0px;
+    padding: 0;
+}
+.text-left > p{
+    font-size: 13px;
+}
