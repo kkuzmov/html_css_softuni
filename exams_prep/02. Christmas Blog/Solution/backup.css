@@ -1,0 +1,18 @@
+@media all and (max-width: 1236px){
+    .big_article .article{
+        width: 15em;
+        height: 16em;
+    }
+    .big_article .article .article_text h3{
+        font-size: 1em;
+    }
+    .big_article .article .article_text{
+        margin-top: 15px;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    main ul{
+        display: flex;
+    }
+}
