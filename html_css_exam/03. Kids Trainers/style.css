@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 98.9vw;
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+}
+p{
+    font-family: Helvetica, sans-serif;
+}
+
+.main-header-container {
+    background-color: #41BEAD;
+    margin-bottom: 0px;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+header ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+a{
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+.softuni-kids-logo {
+    width: 100px;
+}
+.orange-section{
+    background-color: #FFB402;
+    margin-top: -40px;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+.orange-inner-section{
+    width: 45%;
+    margin: 0 auto;
+}
+.orange-inner-section h1{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.orange-inner-section p{
+    margin-top: -9px;
+    font-size: 16px;
+}
+.all-lectors{
+    width: 75%;
+    margin: 70px auto 50px auto;
+}
+.big-lector-profiles{
+    display: flex;
+    justify-content: space-around;
+}
+.lector-profile-big {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.lector-big-name{
+    color: #41BEAD;
+    margin-top: 0px;
+}
+.lector-big-title{
+    color: #B4B8C0;
+    font-size: 15px;
+}
+.lector-big-info{
+    font-size: 14px;
+    color: #6E6362;
+}
+.lector-profile-big img{
+    max-height: 150px;
+    border: 8px solid #41BEAD;
+    border-radius: 100%;
+}
+.lector-profile-big-text{
+    width: 60%;
+}
+.small-lector-profiles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+.lector-profile-small img{
+    max-height: 150px;
+    width: 150px;
+    border: 8px solid #41BEAD;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.lector-profile-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lector-profile-small h2{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.softuni-team-container{
+    background-color: #66B9F8;
+    border-top: 12px solid #92CDFB;
+    border-bottom: 12px solid #919191;
+}
+.softuni-team{
+    width: 62%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.heading-softuni-team{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.heading-softuni-team h1{
+    font-size: 32px;
+}
+.heading-softuni-team p{
+    font-size: 18px;
+}
+.form-softuni-team input{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 15px;
+    margin-bottom: 150px;
+}
+.form-text{
+    color: white;
+}
+button{
+    background-color: #FF9100;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(95, 95, 95);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 72%;
+    margin: 0 auto;
+}
+.footer-container{
+    background-color: #565656;
+}
+.footer-article h4{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-article p{
+    font-size: 14px
+}
+.social-icons i{
+    font-size: 28px;
+    margin-right: 10px;
+}
